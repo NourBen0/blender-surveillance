@@ -1,0 +1,57 @@
+{
+  "scene_name": "Controle_Virtuel",
+  "fps": 24,
+  "frame_start": 1,
+  "frame_end": 240,
+  "objects": [
+    {
+      "name": "Batiment_Principal",
+      "type": "CUBE",
+      "position": [0.0, 0.0, 1.0],
+      "scale": [3.0, 4.0, 2.0],
+      "color": [0.6, 0.55, 0.5]
+    },
+    {
+      "name": "Tour_Centrale",
+      "type": "CYLINDER",
+      "position": [0.0, 0.0, 3.5],
+      "scale": [0.5, 0.5, 1.5],
+      "color": [0.7, 0.65, 0.6]
+    },
+    {
+      "name": "Entrepot_Est",
+      "type": "CUBE",
+      "position": [8.0, 2.0, 0.75],
+      "scale": [4.0, 3.0, 1.5],
+      "color": [0.55, 0.5, 0.45]
+    },
+    {
+      "name": "Entrepot_Ouest",
+      "type": "CUBE",
+      "position": [-8.0, 2.0, 0.75],
+      "scale": [4.0, 3.0, 1.5],
+      "color": [0.55, 0.5, 0.45]
+    },
+    {
+      "name": "Reservoir_Nord",
+      "type": "SPHERE",
+      "position": [0.0, 10.0, 1.5],
+      "scale": [1.5, 1.5, 1.5],
+      "color": [0.3, 0.5, 0.8]
+    },
+    {
+      "name": "Poste_Garde",
+      "type": "CUBE",
+      "position": [5.0, -8.0, 0.5],
+      "scale": [1.0, 1.0, 1.0],
+      "color": [0.8, 0.7, 0.3]
+    },
+    {
+      "name": "Sol_Terrain",
+      "type": "CUBE",
+      "position": [0.0, 0.0, -0.1],
+      "scale": [25.0, 25.0, 0.1],
+      "color": [0.25, 0.35, 0.2]
+    }
+  ]
+}
